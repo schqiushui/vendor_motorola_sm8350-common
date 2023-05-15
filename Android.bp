@@ -136,6 +136,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "SoterService",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/SoterService/SoterService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "ImsRcsService",
 	owner: "motorola",
 	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
