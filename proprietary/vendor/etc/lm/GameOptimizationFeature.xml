@@ -21,7 +21,7 @@
     <Name>GameOptimization</Name>
     <Libname>libgameoptfeature.so</Libname>
     <Configs target="lahaina">
-        <Enable>1</Enable>
+        <Enable>0</Enable>
         <STATIC_L0>1</STATIC_L0>
         <AGPE>1</AGPE>
         <GFAR>1</GFAR>
